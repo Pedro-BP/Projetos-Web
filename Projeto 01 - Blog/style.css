@@ -270,15 +270,9 @@ align-items:center;
 }
 
 .footer{
-
-text-align:center;
-
-padding:20px;
-
-margin-top:40px;
-
-background-color:rgba(53,1,40,0.918);
-
-color:white;
-
+  text-align:center;
+  padding:20px;
+  margin-top:425px;
+  background-color:rgba(53,1,40,0.918);
+  color:white;
 }
