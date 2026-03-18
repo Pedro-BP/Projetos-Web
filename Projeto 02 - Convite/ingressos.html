@@ -1,0 +1,65 @@
+HTML ingressos:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingressos - Jukebox Show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="headerLogo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo do site Jukebox Show">
+            </a>
+        </div>
+    </header>
+
+    <section class="ingressos">
+
+        <h1>Comprar Ingressos</h1>
+
+        <div class="card-evento">
+            <h2>Jukebox Show - Ao Vivo</h2>
+            <a href="https://maps.app.goo.gl/YTy9vcZRz62f2ikp7" target="_blank">📍 Praia de Tramandaí</a>
+            <p>📅 15/08/2026</p>
+        </div>
+
+        <form class="form-ingresso">
+
+            <label>Tipo de Ingresso</label>
+            <select>
+                <option>VIP - R$150</option>
+                <option>Pista Premium - R$100</option>
+                <option>Pista Comum - R$60</option>
+            </select>
+
+            <label>Quantidade</label>
+            <input type="number" min="1" max="10" value="1">
+
+            <label>Nome</label>
+            <input type="text" placeholder="Seu nome" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Seu email" required>
+
+            <div class="btn-comprar">
+                <button class="glow-on-hover">Finalizar Compra</button>
+            </div>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Jukebox Show - PBP Projects</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+Criar uma landing page de convite para um evento (casamento, festa, aniversário ou evento empresarial).
+
+A página terá:
+    - Header                    X
+    - Banner principal          X
+    - Informações do evento     X
+    - Galeria (6 a 9 img)       X
+    - Localização               X
+    - Footer                    X
